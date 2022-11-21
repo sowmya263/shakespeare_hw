@@ -9,6 +9,7 @@ from wordcloud import WordCloud, STOPWORDS, ImageColorGenerator
 from io import StringIO 
 import nltk
 import nltk
+nltk.download('punkt')
 from collections import Counter
 import seaborn as sns
 
